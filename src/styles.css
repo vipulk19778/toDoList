@@ -17,7 +17,7 @@
 }
 
 .center_div {
-  width: 25%;
+  width: 35%;
   height: 80vh;
   background-color: #f4f4f4;
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
@@ -134,5 +134,11 @@ ol li {
     width: 40px;
     color: #fff;
     font-size: 30px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .center_div {
+    width: 25%;
   }
 }
